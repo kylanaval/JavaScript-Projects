@@ -1,4 +1,4 @@
-# HTML and CSS Projects
+# JavaScript Projects
 
 This will store and manage here in JavaScript Projects.
 
