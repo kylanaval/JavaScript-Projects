@@ -1,1 +1,10 @@
-Data is stored and managed here in JavaScript Projects.
+# HTML and CSS Projects
+
+This will store and manage here in JavaScript Projects.
+
+## Projects
+
+- Hello World
+
+### Hello World!
+Display an alert in a page.
