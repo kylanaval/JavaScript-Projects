@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coercion</title>
+    <h3>Display Type of Operator and Coercion!</h3>
+    <script src="JS/main.js"></script>
+</head>
+<body>
+     <h3 id="display_Infinity" onclick="displayInfinity()">
+        Click here to display answer of 2e310 .
+    </h3>
+
+    <h3 id="display_Negative_Infinity" onclick="Negative_Infinity()">
+        Click here to display answer of -3e310.
+    </h3>
+    <br>
+    <h3>Display the answer of Boolean Expressions:</h3>
+    <button onclick="true_test()">Show the answer of 10>2</button>
+    <p id="true_test"></p>
+
+    <button onclick="false_test()">Show the answer of 10<2</button>
+    <p id="false_test"></p>
+
+    <h3>Display the answer of console.log:</h3>
+    <button onclick="console_log()">To show the answer of 2+2 and 10>20 in console.log- Press F12 in the browser upon running!</button>
+   
+    <h3>Display an == operator answer:</h3>
+    <button onclick="equal_test()">Show the answer of 10==10</button>
+    <p id="equal_test"></p>
+
+    <button onclick="false_equal_test()">Show the answer of 3==10:</button>
+    <p id="false_equal_test"></p>
+
+    <h3>Display an === operator answer:</h3>
+    <button onclick="TrueData_Type_Value()">Show the answer of 10===10</button>
+    <p id="TrueData_Type_Value"></p>
+    <button onclick="FalseData_Type_Value()">Show the answer of Different Data Type, Different Value 10===hello:</button>
+    <p id="FalseData_Type_Value"></p>
+    <button onclick="FalseData_SameValue()">Show the answer of Same Data Type, Different Value 10==="10":</button>
+    <p id="FalseData_SameValue"></p>
+    <button onclick="SameData_Type_DifferentValue()">Show the answer of Same Data Type, Different Value 10===20:</button>
+    <p id="SameData_Type_DifferentValue"></p>
+
+    <h3>Display an AND operator answer:</h3>
+    <button onclick="AND_Operator()">Show the answer of 10>5 && 5>3:</button>
+    <p id="AND_Operator"></p>
+    <button onclick="AND_Operator_False()">Show the answer of 10>5 && 5<3:</button>
+    <p id="AND_Operator_False"></p>
+
+    <h3>Display an OR operator answer:</h3>
+    <button onclick="OR_Operator()">Show the answer of 10>5 || 5<3:</button>
+    <p id="OR_Operator"></p>
+
+    <button onclick="False_OR_Operator()">Show the answer of 10<5 || 5<3:</button>
+    <p id="False_OR_Operator"></p>
+    
+    <h3>Display a NOT operator answer:</h3>
+    <button onclick="NOT_Operator()">Show the answer of !(10>5):</button>
+    <p id="NOT_Operator"></p>
+    
+    <button onclick="NOT_Operator_True()">Show the answer of !(5>10):</button>
+    <p id="NOT_Operator_True"></p>
+
+</body>
+
+</html>
