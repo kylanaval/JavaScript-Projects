@@ -1,0 +1,64 @@
+* {box-sizing: border-box;}               /* Apply box-sizing to all elements for consistent sizing */
+body {font-family: Verdana, sans-serif;}  /* Set the font for the body of the document */
+
+.mySlides {display: none;}    /* Hide all elements with the class "mySlides" by default */
+
+img {vertical-align: middle;} /* Align images vertically in the middle */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;         /* Set a maximum width for the slideshow container */
+  position: relative;       /* Set the position to relative to allow absolute positioning of child elements */
+  margin: auto;             /* Center the slideshow container horizontally */
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;   /* Set the text color to a light gray */
+  font-size: 15px;    /* Set the font size for the caption text */
+  padding: 8px 12px;  /* Add padding around the caption text */
+  position: absolute; /* Set the position to absolute to position it within the slideshow container */
+  bottom: 8px;      /* Position the caption text 8 pixels from the bottom of the slideshow container */
+  width: 100%;      /* Set the width of the caption text to 100% of the slideshow container */
+  text-align: center; /* Center the caption text horizontally */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {         /* Style for the number text that indicates the slide number */
+  color: #f2f2f2;   /* Set the text color to a light gray */
+  font-size: 12px;    /* Set the font size for the number text */
+  padding: 8px 12px;   /* Add padding around the number text */
+  position: absolute; /* Set the position to absolute to position it within the slideshow container */
+  top: 0;           /* Position the number text at the top of the slideshow container */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;   /* Set the height of the dots to 15 pixels */
+  width: 15px;    /* Set the width of the dots to 15 pixels */
+  margin: 0 2px;  /* Add horizontal margin of 2 pixels between the dots */
+  background-color: #bbb; /* Set the background color of the dots to a light gray */
+  border-radius: 50%; /* Make the dots circular by setting the border radius to 50% */
+  display: inline-block;  /* Display the dots as inline-block elements to allow for proper spacing */
+  transition: background-color 0.6s ease; /* Add a transition effect for the background color when the dots are active */
+}
+
+.active {
+  background-color: #717171; /* Set the background color of the active dot to a darker gray */
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;     /* Specify the name of the animation to apply to elements with the class "fade" */
+  animation-duration: 1.5s; /* Set the duration of the animation to 1.5 seconds */
+}
+
+@keyframes fade {     /* Define the keyframes for the fade animation */
+  from {opacity: .4}  /* Start the animation with an opacity of 0.4 */
+  to {opacity: 1}    /* End the animation with an opacity of 1 */
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) { /* Apply styles for screens with a maximum width of 300 pixels */
+  .text {font-size: 11px}           /* Decrease the font size of the caption text to 11 pixels on smaller screens */
+}
