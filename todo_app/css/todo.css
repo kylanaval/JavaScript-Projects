@@ -1,0 +1,41 @@
+/* Make the page fill the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the todo app */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Make input and button look nicer */
+#task {
+    width: 250px;
+    padding: 8px;
+}
+
+#addTask {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#todos {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    border-top: 2px solid #333;
+    background-color: #f2f2f2;
+}
